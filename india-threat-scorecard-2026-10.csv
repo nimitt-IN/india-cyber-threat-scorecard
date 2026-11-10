@@ -1,0 +1,24 @@
+edition,window_start,window_end,vertical,incidents,band,categories
+2026-10,2026-10-01,2026-11-01,Aerospace/Defense,0,none,
+2026-10,2026-10-01,2026-11-01,Business Services,5,elevated,Ransomware:2|Data Breach:2|Underground Activity:1
+2026-10,2026-10-01,2026-11-01,Consumer Goods,3,elevated,Ransomware:1|Data Breach:2
+2026-10,2026-10-01,2026-11-01,Credit Union,0,none,
+2026-10,2026-10-01,2026-11-01,Education,5,elevated,Ransomware:1|Data Breach:4
+2026-10,2026-10-01,2026-11-01,Energy/Resources,0,none,
+2026-10,2026-10-01,2026-11-01,Engineering,0,none,
+2026-10,2026-10-01,2026-11-01,Finance,6,elevated,Data Breach:5|Underground Activity:1
+2026-10,2026-10-01,2026-11-01,Food Production,1,watch,Data Breach:1
+2026-10,2026-10-01,2026-11-01,Government/Politics,12,elevated,Ransomware:1|Data Breach:8|Underground Activity:3
+2026-10,2026-10-01,2026-11-01,Healthcare/Wellness,4,elevated,Data Breach:3|Underground Activity:1
+2026-10,2026-10-01,2026-11-01,Insurance,1,watch,Underground Activity:1
+2026-10,2026-10-01,2026-11-01,Legal,0,none,
+2026-10,2026-10-01,2026-11-01,Manufacturing,4,elevated,Ransomware:2|Data Breach:2
+2026-10,2026-10-01,2026-11-01,Media/Entertainment,0,none,
+2026-10,2026-10-01,2026-11-01,Nonprofit/NGO,3,elevated,Ransomware:1|Data Breach:2
+2026-10,2026-10-01,2026-11-01,Real Estate,1,watch,Ransomware:1
+2026-10,2026-10-01,2026-11-01,Retail,1,watch,Ransomware:1
+2026-10,2026-10-01,2026-11-01,Technology,6,elevated,Ransomware:2|Data Breach:2|Malware And Hacking:1|Vulnerabilities And Exploits:1
+2026-10,2026-10-01,2026-11-01,Telecommunications,0,none,
+2026-10,2026-10-01,2026-11-01,Tourism/Hospitality,1,watch,Ransomware:1
+2026-10,2026-10-01,2026-11-01,Transportation,2,active,Data Breach:2
+2026-10,2026-10-01,2026-11-01,Utilities,0,none,

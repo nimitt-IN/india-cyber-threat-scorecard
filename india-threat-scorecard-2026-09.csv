@@ -1,0 +1,24 @@
+edition,window_start,window_end,vertical,incidents,band,categories
+2026-09,2026-08-31,2026-09-30,Aerospace/Defense,1,watch,APTs:1
+2026-09,2026-08-31,2026-09-30,Business Services,7,elevated,Ransomware:2|Data Breach:4|Underground Activity:1
+2026-09,2026-08-31,2026-09-30,Consumer Goods,1,watch,Ransomware:1
+2026-09,2026-08-31,2026-09-30,Credit Union,0,none,
+2026-09,2026-08-31,2026-09-30,Education,9,elevated,Ransomware:1|Data Breach:7|Underground Activity:1
+2026-09,2026-08-31,2026-09-30,Energy/Resources,0,none,
+2026-09,2026-08-31,2026-09-30,Engineering,4,elevated,Ransomware:4
+2026-09,2026-08-31,2026-09-30,Finance,5,elevated,Ransomware:1|Data Breach:2|Underground Activity:1|Malware And Hacking:1
+2026-09,2026-08-31,2026-09-30,Food Production,1,watch,Underground Activity:1
+2026-09,2026-08-31,2026-09-30,Government/Politics,12,elevated,Data Breach:7|Underground Activity:5
+2026-09,2026-08-31,2026-09-30,Healthcare/Wellness,1,watch,Ransomware:1
+2026-09,2026-08-31,2026-09-30,Insurance,2,active,Data Breach:2
+2026-09,2026-08-31,2026-09-30,Legal,1,watch,Underground Activity:1
+2026-09,2026-08-31,2026-09-30,Manufacturing,6,elevated,Ransomware:6
+2026-09,2026-08-31,2026-09-30,Media/Entertainment,0,none,
+2026-09,2026-08-31,2026-09-30,Nonprofit/NGO,0,none,
+2026-09,2026-08-31,2026-09-30,Real Estate,1,watch,Ransomware:1
+2026-09,2026-08-31,2026-09-30,Retail,0,none,
+2026-09,2026-08-31,2026-09-30,Technology,4,elevated,Ransomware:1|Underground Activity:1|Malware And Hacking:1|APTs:1
+2026-09,2026-08-31,2026-09-30,Telecommunications,1,watch,Data Breach:1
+2026-09,2026-08-31,2026-09-30,Tourism/Hospitality,6,elevated,Ransomware:2|Underground Activity:4
+2026-09,2026-08-31,2026-09-30,Transportation,4,elevated,Ransomware:1|Data Breach:3
+2026-09,2026-08-31,2026-09-30,Utilities,1,watch,Underground Activity:1

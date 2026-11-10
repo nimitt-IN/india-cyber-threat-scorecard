@@ -1,0 +1,13 @@
+{
+  "title": "India Cyber Threat Scorecard",
+  "upload_type": "dataset",
+  "description": "<p>Aggregate counts of observed cyber threat activity affecting organisations in India, across 23 industry verticals, published monthly. Counts only: no organisation is named, described or made identifiable. A count is an observation, not a confirmed breach, and a band measures observed activity in a vertical, not the security posture of any organisation in it.</p><p>This is a dated snapshot. A new edition is published at the start of each month at <a href=\"https://www.bitscore.in/reports/india-threat-scorecard\">bitscore.in/reports/india-threat-scorecard</a>.</p>",
+  "creators": [{ "name": "BitScore Cybertech LLP" }],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": ["cybersecurity", "threat intelligence", "India", "ransomware", "data breach", "open data"],
+  "related_identifiers": [
+    { "identifier": "https://www.bitscore.in/reports/india-threat-scorecard", "relation": "isDocumentedBy", "scheme": "url" }
+  ]
+}

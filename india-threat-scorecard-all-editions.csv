@@ -1,0 +1,70 @@
+edition,window_start,window_end,vertical,incidents,band,categories
+2026-08,2026-05-30,2026-08-30,Aerospace/Defense,2,active,APTs:1|Underground Activity:1
+2026-08,2026-05-30,2026-08-30,Business Services,6,elevated,Ransomware:6
+2026-08,2026-05-30,2026-08-30,Consumer Goods,0,none,
+2026-08,2026-05-30,2026-08-30,Credit Union,1,watch,Data Breach:1
+2026-08,2026-05-30,2026-08-30,Education,3,active,Data Breach:2|Ransomware:1
+2026-08,2026-05-30,2026-08-30,Energy/Resources,0,none,
+2026-08,2026-05-30,2026-08-30,Engineering,4,active,Ransomware:4
+2026-08,2026-05-30,2026-08-30,Finance,4,active,Data Breach:2|Ransomware:1|Malware And Hacking:1
+2026-08,2026-05-30,2026-08-30,Food Production,1,watch,Ransomware:1
+2026-08,2026-05-30,2026-08-30,Government/Politics,2,active,Hacktivism:1|Data Breach:1
+2026-08,2026-05-30,2026-08-30,Healthcare/Wellness,1,watch,Underground Activity:1
+2026-08,2026-05-30,2026-08-30,Insurance,0,none,
+2026-08,2026-05-30,2026-08-30,Legal,0,none,
+2026-08,2026-05-30,2026-08-30,Manufacturing,6,elevated,Ransomware:5|Underground Activity:1
+2026-08,2026-05-30,2026-08-30,Media/Entertainment,1,watch,Ransomware:1
+2026-08,2026-05-30,2026-08-30,Nonprofit/NGO,0,none,
+2026-08,2026-05-30,2026-08-30,Real Estate,1,watch,Underground Activity:1
+2026-08,2026-05-30,2026-08-30,Retail,0,none,
+2026-08,2026-05-30,2026-08-30,Technology,1,watch,Underground Activity:1
+2026-08,2026-05-30,2026-08-30,Telecommunications,2,active,Ransomware:1|Underground Activity:1
+2026-08,2026-05-30,2026-08-30,Tourism/Hospitality,1,watch,Data Breach:1
+2026-08,2026-05-30,2026-08-30,Transportation,0,none,
+2026-08,2026-05-30,2026-08-30,Utilities,0,none,
+2026-09,2026-08-31,2026-09-30,Aerospace/Defense,1,watch,APTs:1
+2026-09,2026-08-31,2026-09-30,Business Services,7,elevated,Ransomware:2|Data Breach:4|Underground Activity:1
+2026-09,2026-08-31,2026-09-30,Consumer Goods,1,watch,Ransomware:1
+2026-09,2026-08-31,2026-09-30,Credit Union,0,none,
+2026-09,2026-08-31,2026-09-30,Education,9,elevated,Ransomware:1|Data Breach:7|Underground Activity:1
+2026-09,2026-08-31,2026-09-30,Energy/Resources,0,none,
+2026-09,2026-08-31,2026-09-30,Engineering,4,elevated,Ransomware:4
+2026-09,2026-08-31,2026-09-30,Finance,5,elevated,Ransomware:1|Data Breach:2|Underground Activity:1|Malware And Hacking:1
+2026-09,2026-08-31,2026-09-30,Food Production,1,watch,Underground Activity:1
+2026-09,2026-08-31,2026-09-30,Government/Politics,12,elevated,Data Breach:7|Underground Activity:5
+2026-09,2026-08-31,2026-09-30,Healthcare/Wellness,1,watch,Ransomware:1
+2026-09,2026-08-31,2026-09-30,Insurance,2,active,Data Breach:2
+2026-09,2026-08-31,2026-09-30,Legal,1,watch,Underground Activity:1
+2026-09,2026-08-31,2026-09-30,Manufacturing,6,elevated,Ransomware:6
+2026-09,2026-08-31,2026-09-30,Media/Entertainment,0,none,
+2026-09,2026-08-31,2026-09-30,Nonprofit/NGO,0,none,
+2026-09,2026-08-31,2026-09-30,Real Estate,1,watch,Ransomware:1
+2026-09,2026-08-31,2026-09-30,Retail,0,none,
+2026-09,2026-08-31,2026-09-30,Technology,4,elevated,Ransomware:1|Underground Activity:1|Malware And Hacking:1|APTs:1
+2026-09,2026-08-31,2026-09-30,Telecommunications,1,watch,Data Breach:1
+2026-09,2026-08-31,2026-09-30,Tourism/Hospitality,6,elevated,Ransomware:2|Underground Activity:4
+2026-09,2026-08-31,2026-09-30,Transportation,4,elevated,Ransomware:1|Data Breach:3
+2026-09,2026-08-31,2026-09-30,Utilities,1,watch,Underground Activity:1
+2026-10,2026-10-01,2026-11-01,Aerospace/Defense,0,none,
+2026-10,2026-10-01,2026-11-01,Business Services,5,elevated,Ransomware:2|Data Breach:2|Underground Activity:1
+2026-10,2026-10-01,2026-11-01,Consumer Goods,3,elevated,Ransomware:1|Data Breach:2
+2026-10,2026-10-01,2026-11-01,Credit Union,0,none,
+2026-10,2026-10-01,2026-11-01,Education,5,elevated,Ransomware:1|Data Breach:4
+2026-10,2026-10-01,2026-11-01,Energy/Resources,0,none,
+2026-10,2026-10-01,2026-11-01,Engineering,0,none,
+2026-10,2026-10-01,2026-11-01,Finance,6,elevated,Data Breach:5|Underground Activity:1
+2026-10,2026-10-01,2026-11-01,Food Production,1,watch,Data Breach:1
+2026-10,2026-10-01,2026-11-01,Government/Politics,12,elevated,Ransomware:1|Data Breach:8|Underground Activity:3
+2026-10,2026-10-01,2026-11-01,Healthcare/Wellness,4,elevated,Data Breach:3|Underground Activity:1
+2026-10,2026-10-01,2026-11-01,Insurance,1,watch,Underground Activity:1
+2026-10,2026-10-01,2026-11-01,Legal,0,none,
+2026-10,2026-10-01,2026-11-01,Manufacturing,4,elevated,Ransomware:2|Data Breach:2
+2026-10,2026-10-01,2026-11-01,Media/Entertainment,0,none,
+2026-10,2026-10-01,2026-11-01,Nonprofit/NGO,3,elevated,Ransomware:1|Data Breach:2
+2026-10,2026-10-01,2026-11-01,Real Estate,1,watch,Ransomware:1
+2026-10,2026-10-01,2026-11-01,Retail,1,watch,Ransomware:1
+2026-10,2026-10-01,2026-11-01,Technology,6,elevated,Ransomware:2|Data Breach:2|Malware And Hacking:1|Vulnerabilities And Exploits:1
+2026-10,2026-10-01,2026-11-01,Telecommunications,0,none,
+2026-10,2026-10-01,2026-11-01,Tourism/Hospitality,1,watch,Ransomware:1
+2026-10,2026-10-01,2026-11-01,Transportation,2,active,Data Breach:2
+2026-10,2026-10-01,2026-11-01,Utilities,0,none,

@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.bitscore.in/scorecard/schema.json",
+  "title": "India Cyber Threat Scorecard edition",
+  "description": "One edition of the India Cyber Threat Scorecard: aggregate counts of observed cyber threat activity affecting organisations in India, across 23 industry verticals. Contains no incident-level records and identifies no organisation.",
+  "type": "object",
+  "required": [
+    "name",
+    "edition",
+    "window",
+    "totals",
+    "verticals"
+  ],
+  "properties": {
+    "name": {
+      "const": "India Cyber Threat Scorecard"
+    },
+    "edition": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}$",
+      "description": "Period-end month."
+    },
+    "label": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "licence": {
+      "type": "string",
+      "format": "uri"
+    },
+    "attribution": {
+      "type": "string"
+    },
+    "window": {
+      "type": "object",
+      "required": [
+        "start",
+        "end",
+        "cadence"
+      ],
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date"
+        },
+        "end": {
+          "type": "string",
+          "format": "date"
+        },
+        "cadence": {
+          "enum": [
+            "monthly",
+            "quarterly"
+          ]
+        }
+      }
+    },
+    "datePublished": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateModified": {
+      "type": "string",
+      "format": "date"
+    },
+    "bandThresholds": {
+      "type": "object",
+      "description": "The counts at which a vertical enters each band, for this cadence.",
+      "properties": {
+        "elevated": {
+          "type": "integer"
+        },
+        "active": {
+          "type": "integer"
+        }
+      }
+    },
+    "totals": {
+      "type": "object",
+      "required": [
+        "countedIncidents"
+      ],
+      "properties": {
+        "countedIncidents": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "excludedItems": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Source items excluded as having no India nexus."
+        },
+        "verticalsWithActivity": {
+          "type": "integer"
+        },
+        "verticalsWithNoActivityObserved": {
+          "type": "integer"
+        }
+      }
+    },
+    "verticals": {
+      "type": "array",
+      "minItems": 23,
+      "maxItems": 23,
+      "items": {
+        "type": "object",
+        "required": [
+          "vertical",
+          "incidents",
+          "band"
+        ],
+        "properties": {
+          "vertical": {
+            "type": "string"
+          },
+          "incidents": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "band": {
+            "enum": [
+              "elevated",
+              "active",
+              "watch",
+              "none"
+            ]
+          },
+          "categories": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        }
+      }
+    },
+    "ransomwareByGroup": {
+      "type": "array",
+      "description": "Ransomware incidents per claiming group. Groups are named; affected organisations never are.",
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "incidents"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "incidents": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

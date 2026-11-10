@@ -1,0 +1,244 @@
+{
+  "name": "India Cyber Threat Scorecard",
+  "edition": "2026-09",
+  "label": "September 2026",
+  "headline": "Nine of India’s 23 verticals ran Elevated in September 2026",
+  "url": "https://www.bitscore.in/reports/india-threat-scorecard/2026-09",
+  "publisher": "BitScore Cybertech LLP",
+  "licence": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "BitScore India Cyber Threat Scorecard — bitscore.in",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-30",
+    "cadence": "monthly"
+  },
+  "datePublished": "2026-09-30",
+  "dateModified": "2026-09-30",
+  "bandThresholds": {
+    "elevated": 3,
+    "active": 2
+  },
+  "totals": {
+    "countedIncidents": 67,
+    "excludedItems": 31,
+    "verticalsWithActivity": 18,
+    "verticalsWithNoActivityObserved": 5
+  },
+  "verticals": [
+    {
+      "vertical": "Aerospace/Defense",
+      "incidents": 1,
+      "band": "watch",
+      "categories": {
+        "APTs": 1
+      }
+    },
+    {
+      "vertical": "Business Services",
+      "incidents": 7,
+      "band": "elevated",
+      "categories": {
+        "Ransomware": 2,
+        "Data Breach": 4,
+        "Underground Activity": 1
+      }
+    },
+    {
+      "vertical": "Consumer Goods",
+      "incidents": 1,
+      "band": "watch",
+      "categories": {
+        "Ransomware": 1
+      }
+    },
+    {
+      "vertical": "Credit Union",
+      "incidents": 0,
+      "band": "none",
+      "categories": {}
+    },
+    {
+      "vertical": "Education",
+      "incidents": 9,
+      "band": "elevated",
+      "categories": {
+        "Ransomware": 1,
+        "Data Breach": 7,
+        "Underground Activity": 1
+      }
+    },
+    {
+      "vertical": "Energy/Resources",
+      "incidents": 0,
+      "band": "none",
+      "categories": {}
+    },
+    {
+      "vertical": "Engineering",
+      "incidents": 4,
+      "band": "elevated",
+      "categories": {
+        "Ransomware": 4
+      }
+    },
+    {
+      "vertical": "Finance",
+      "incidents": 5,
+      "band": "elevated",
+      "categories": {
+        "Ransomware": 1,
+        "Data Breach": 2,
+        "Underground Activity": 1,
+        "Malware And Hacking": 1
+      }
+    },
+    {
+      "vertical": "Food Production",
+      "incidents": 1,
+      "band": "watch",
+      "categories": {
+        "Underground Activity": 1
+      }
+    },
+    {
+      "vertical": "Government/Politics",
+      "incidents": 12,
+      "band": "elevated",
+      "categories": {
+        "Data Breach": 7,
+        "Underground Activity": 5
+      }
+    },
+    {
+      "vertical": "Healthcare/Wellness",
+      "incidents": 1,
+      "band": "watch",
+      "categories": {
+        "Ransomware": 1
+      }
+    },
+    {
+      "vertical": "Insurance",
+      "incidents": 2,
+      "band": "active",
+      "categories": {
+        "Data Breach": 2
+      }
+    },
+    {
+      "vertical": "Legal",
+      "incidents": 1,
+      "band": "watch",
+      "categories": {
+        "Underground Activity": 1
+      }
+    },
+    {
+      "vertical": "Manufacturing",
+      "incidents": 6,
+      "band": "elevated",
+      "categories": {
+        "Ransomware": 6
+      }
+    },
+    {
+      "vertical": "Media/Entertainment",
+      "incidents": 0,
+      "band": "none",
+      "categories": {}
+    },
+    {
+      "vertical": "Nonprofit/NGO",
+      "incidents": 0,
+      "band": "none",
+      "categories": {}
+    },
+    {
+      "vertical": "Real Estate",
+      "incidents": 1,
+      "band": "watch",
+      "categories": {
+        "Ransomware": 1
+      }
+    },
+    {
+      "vertical": "Retail",
+      "incidents": 0,
+      "band": "none",
+      "categories": {}
+    },
+    {
+      "vertical": "Technology",
+      "incidents": 4,
+      "band": "elevated",
+      "categories": {
+        "Ransomware": 1,
+        "Underground Activity": 1,
+        "Malware And Hacking": 1,
+        "APTs": 1
+      }
+    },
+    {
+      "vertical": "Telecommunications",
+      "incidents": 1,
+      "band": "watch",
+      "categories": {
+        "Data Breach": 1
+      }
+    },
+    {
+      "vertical": "Tourism/Hospitality",
+      "incidents": 6,
+      "band": "elevated",
+      "categories": {
+        "Ransomware": 2,
+        "Underground Activity": 4
+      }
+    },
+    {
+      "vertical": "Transportation",
+      "incidents": 4,
+      "band": "elevated",
+      "categories": {
+        "Ransomware": 1,
+        "Data Breach": 3
+      }
+    },
+    {
+      "vertical": "Utilities",
+      "incidents": 1,
+      "band": "watch",
+      "categories": {
+        "Underground Activity": 1
+      }
+    }
+  ],
+  "ransomwareByGroup": [
+    {
+      "label": "Krybit",
+      "incidents": 6
+    },
+    {
+      "label": "GSG",
+      "incidents": 3
+    },
+    {
+      "label": "Clop",
+      "incidents": 3
+    },
+    {
+      "label": "thegentlemen, DOOMMAGEDDON and Emperador, two each",
+      "incidents": 6
+    },
+    {
+      "label": "Three other named groups, one each",
+      "incidents": 3
+    }
+  ],
+  "notes": [
+    "Aggregate counts only. No organisation is named, described or made identifiable in this dataset.",
+    "A count is an observation, not a confirmed breach.",
+    "A band measures observed threat activity in a vertical, not the security posture of any organisation in it.",
+    "A vertical with no activity means none was observed in the window, not that none occurred."
+  ]
+}
